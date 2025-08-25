@@ -1,14 +1,14 @@
 # Smart Attendance System
 An AI-powered Face Recognition-Based Attendance System built with Python, TensorFlow, Keras, OpenCV, Flask, and CNN. This project automates the process of taking attendance by recognizing student faces in real time and logging their records automatically.
 
-##Features 
+## Features 
 - **Real-time Face Recognition**: Automatically detects and recognizes student faces using webcam.
 - **CNN Model**: Custom-trained Convolutional Neural Network for precise face classification
 - **Automated Attendance Logging**: Saves attendance records in CSV/Excel format with timestamps
 - **User-friendly Web Interface**: Flask-based web application for easy interaction
 - **Cloud Training Support**: Integration with Google Colab for model training
 
-##Technologies Used
+## Technologies Used
 - **Python**-Core programming language
 - **TensorFlow & Keras** - Deep learning framework for CNN model
 - **OpenCV** - Computer vision library for face detection and image processing
@@ -16,7 +16,7 @@ An AI-powered Face Recognition-Based Attendance System built with Python, Tensor
 - **Pandas** - Data manipulation and CSV/Excel file handling
 - **Google Colab** - Cloud-based model training environment
 
-##How It Works
+## How It Works
 
 1. Data Collection & Preprocessing
    - Collect student images for training dataset
