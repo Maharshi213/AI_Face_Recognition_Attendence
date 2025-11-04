@@ -5375,3 +5375,148 @@ AttributeError: Can't get attribute 'ImprovedFaceCNN' on <module '__main__' from
 2025-07-14 21:47:00,870 - __main__ - INFO - Confidence: 99.84%
 2025-07-14 21:47:00,878 - __main__ - INFO - Logged prediction to prediction_log.csv
 2025-07-14 21:47:00,880 - werkzeug - INFO - 127.0.0.1 - - [14/Jul/2025 21:47:00] "POST /predict HTTP/1.1" 200 -
+2025-09-20 10:26:29,139 - __main__ - INFO - Model file size: 18.37 MB
+2025-09-20 10:26:29,140 - __main__ - INFO - Attempting to load model as a complete object...
+2025-09-20 10:26:29,199 - __main__ - INFO - Successfully loaded complete model object
+2025-09-20 10:26:29,199 - __main__ - INFO - ==================================================
+2025-09-20 10:26:29,199 - __main__ - INFO - Starting Face Recognition Flask Application
+2025-09-20 10:26:29,199 - __main__ - INFO - Model path: student_face_full_model.pth
+2025-09-20 10:26:29,199 - __main__ - INFO - Class names: ['Aliefiah', 'Apurva', 'Dhruhi', 'Kavya', 'Maharshi']
+2025-09-20 10:26:29,199 - __main__ - INFO - Model loaded successfully
+2025-09-20 10:26:29,199 - __main__ - INFO - ==================================================
+2025-09-20 10:26:29,269 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-20 10:26:29,269 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-20 10:26:29,309 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-09-20 10:26:32,588 - __main__ - INFO - Model file size: 18.37 MB
+2025-09-20 10:26:32,588 - __main__ - INFO - Attempting to load model as a complete object...
+2025-09-20 10:26:32,603 - __main__ - INFO - Successfully loaded complete model object
+2025-09-20 10:26:32,615 - __main__ - INFO - ==================================================
+2025-09-20 10:26:32,615 - __main__ - INFO - Starting Face Recognition Flask Application
+2025-09-20 10:26:32,615 - __main__ - INFO - Model path: student_face_full_model.pth
+2025-09-20 10:26:32,616 - __main__ - INFO - Class names: ['Aliefiah', 'Apurva', 'Dhruhi', 'Kavya', 'Maharshi']
+2025-09-20 10:26:32,616 - __main__ - INFO - Model loaded successfully
+2025-09-20 10:26:32,617 - __main__ - INFO - ==================================================
+2025-09-20 10:26:32,620 - werkzeug - WARNING -  * Debugger is active!
+2025-09-20 10:26:32,632 - werkzeug - INFO -  * Debugger PIN: 963-818-835
+2025-09-20 10:26:32,666 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\referencing\\_core.py', reloading
+2025-09-20 10:26:32,696 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\rich\\__init__.py', reloading
+2025-09-20 10:26:32,741 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\rsa\\__init__.py', reloading
+2025-09-20 10:26:32,768 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\rsa\\key.py', reloading
+2025-09-20 10:26:32,833 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\rsa\\pkcs1.py', reloading
+2025-09-20 10:26:32,868 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\cluster\\__init__.py', reloading
+2025-09-20 10:26:32,880 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\conftest.py', reloading
+2025-09-20 10:26:32,914 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\constants\\__init__.py', reloading
+2025-09-20 10:26:32,948 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\constants\\_codata.py', reloading
+2025-09-20 10:26:33,014 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\constants\\_constants.py', reloading
+2025-09-20 10:26:33,053 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\datasets\\__init__.py', reloading
+2025-09-20 10:26:33,081 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\datasets\\_fetchers.py', reloading
+2025-09-20 10:26:33,103 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\datasets\\_download_all.py', reloading
+2025-09-20 10:26:33,127 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\datasets\\_utils.py', reloading
+2025-09-20 10:26:33,150 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\fft\\__init__.py', reloading
+2025-09-20 10:26:33,193 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\fft\\_basic.py', reloading
+2025-09-20 10:26:33,232 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\fft\\_realtransforms.py', reloading
+2025-09-20 10:26:33,264 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\fft\\_fftlog.py', reloading
+2025-09-20 10:26:33,286 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\fft\\_fftlog_multimethods.py', reloading
+2025-09-20 10:26:33,316 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\fft\\_helper.py', reloading
+2025-09-20 10:26:33,347 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\fft\\_backend.py', reloading
+2025-09-20 10:26:33,415 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\fft\\_pocketfft\\helper.py', reloading
+2025-09-20 10:26:33,434 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\integrate\\__init__.py', reloading
+2025-09-20 10:26:33,474 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\integrate\\_quadrature.py', reloading
+2025-09-20 10:26:33,510 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\integrate\\_odepack_py.py', reloading
+2025-09-20 10:26:33,541 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\integrate\\_quadpack_py.py', reloading
+2025-09-20 10:26:33,571 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\integrate\\_ode.py', reloading
+2025-09-20 10:26:33,610 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\interpolate\\__init__.py', reloading
+2025-09-20 10:26:33,637 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\scipy\\interpolate\\_interpolate.py', reloading
+2025-09-20 10:26:34,074 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-09-20 10:26:37,700 - __main__ - INFO - Model file size: 18.37 MB
+2025-09-20 10:26:37,700 - __main__ - INFO - Attempting to load model as a complete object...
+2025-09-20 10:26:37,715 - __main__ - INFO - Successfully loaded complete model object
+2025-09-20 10:26:37,720 - __main__ - INFO - ==================================================
+2025-09-20 10:26:37,721 - __main__ - INFO - Starting Face Recognition Flask Application
+2025-09-20 10:26:37,721 - __main__ - INFO - Model path: student_face_full_model.pth
+2025-09-20 10:26:37,721 - __main__ - INFO - Class names: ['Aliefiah', 'Apurva', 'Dhruhi', 'Kavya', 'Maharshi']
+2025-09-20 10:26:37,724 - __main__ - INFO - Model loaded successfully
+2025-09-20 10:26:37,725 - __main__ - INFO - ==================================================
+2025-09-20 10:26:37,747 - werkzeug - WARNING -  * Debugger is active!
+2025-09-20 10:26:37,758 - werkzeug - INFO -  * Debugger PIN: 963-818-835
+2025-09-20 10:28:33,151 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 10:28:33] "GET / HTTP/1.1" 200 -
+2025-09-20 10:28:33,226 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 10:28:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-20 10:28:56,286 - __main__ - INFO - Saved uploaded file to uploads\WhatsApp_Image_2025-05-12_at_8.12.27_PM_2.jpeg
+2025-09-20 10:28:56,287 - __main__ - INFO - Processing image: uploads\WhatsApp_Image_2025-05-12_at_8.12.27_PM_2.jpeg
+2025-09-20 10:28:56,503 - __main__ - INFO - Image loaded: (900, 1600), RGB
+2025-09-20 10:28:56,600 - __main__ - INFO - Image transformed to tensor: torch.Size([1, 1, 100, 100])
+2025-09-20 10:28:56,816 - __main__ - INFO - Raw outputs: tensor([[-0.4147,  8.0641, -1.4164, -5.7896,  1.0606]])
+2025-09-20 10:28:56,827 - __main__ - INFO - Predicted Index: 1
+2025-09-20 10:28:56,827 - __main__ - INFO - Number of output classes: 5
+2025-09-20 10:28:56,827 - __main__ - INFO - Predicted name: Apurva
+2025-09-20 10:28:56,831 - __main__ - INFO - Confidence: 99.88%
+2025-09-20 10:28:56,859 - __main__ - INFO - Logged prediction to prediction_log.csv
+2025-09-20 10:28:56,859 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 10:28:56] "POST /predict HTTP/1.1" 200 -
+2025-09-20 10:29:06,570 - __main__ - INFO - Received base64 image data
+2025-09-20 10:29:06,576 - __main__ - INFO - Saved webcam capture to uploads\webcam_capture.jpg
+2025-09-20 10:29:06,578 - __main__ - INFO - Processing image: uploads\webcam_capture.jpg
+2025-09-20 10:29:06,603 - __main__ - INFO - Image loaded: (640, 480), RGB
+2025-09-20 10:29:06,611 - __main__ - INFO - Image transformed to tensor: torch.Size([1, 1, 100, 100])
+2025-09-20 10:29:06,630 - __main__ - INFO - Raw outputs: tensor([[-0.1874, -0.1243,  0.5433, -2.7654, -0.0502]])
+2025-09-20 10:29:06,630 - __main__ - INFO - Predicted Index: 2
+2025-09-20 10:29:06,632 - __main__ - INFO - Number of output classes: 5
+2025-09-20 10:29:06,632 - __main__ - INFO - Predicted name: Dhruhi
+2025-09-20 10:29:06,632 - __main__ - INFO - Confidence: 38.71%
+2025-09-20 10:29:06,636 - __main__ - INFO - Logged prediction to prediction_log.csv
+2025-09-20 10:29:06,638 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 10:29:06] "POST /predict HTTP/1.1" 200 -
+2025-09-20 10:29:15,118 - __main__ - INFO - Received base64 image data
+2025-09-20 10:29:15,123 - __main__ - INFO - Saved webcam capture to uploads\webcam_capture.jpg
+2025-09-20 10:29:15,124 - __main__ - INFO - Processing image: uploads\webcam_capture.jpg
+2025-09-20 10:29:15,172 - __main__ - INFO - Image loaded: (640, 480), RGB
+2025-09-20 10:29:15,177 - __main__ - INFO - Image transformed to tensor: torch.Size([1, 1, 100, 100])
+2025-09-20 10:29:15,209 - __main__ - INFO - Raw outputs: tensor([[-1.8898, -2.5800,  0.6798, -1.5302,  2.2127]])
+2025-09-20 10:29:15,210 - __main__ - INFO - Predicted Index: 4
+2025-09-20 10:29:15,211 - __main__ - INFO - Number of output classes: 5
+2025-09-20 10:29:15,212 - __main__ - INFO - Predicted name: Maharshi
+2025-09-20 10:29:15,213 - __main__ - INFO - Confidence: 79.09%
+2025-09-20 10:29:15,220 - __main__ - INFO - Logged prediction to prediction_log.csv
+2025-09-20 10:29:15,220 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 10:29:15] "POST /predict HTTP/1.1" 200 -
+2025-09-20 10:29:43,084 - __main__ - INFO - Saved uploaded file to uploads\WhatsApp_Image_2025-05-14_at_4.20.16_PM_1.jpeg
+2025-09-20 10:29:43,084 - __main__ - INFO - Processing image: uploads\WhatsApp_Image_2025-05-14_at_4.20.16_PM_1.jpeg
+2025-09-20 10:29:43,118 - __main__ - INFO - Image loaded: (1200, 1600), RGB
+2025-09-20 10:29:43,184 - __main__ - INFO - Image transformed to tensor: torch.Size([1, 1, 100, 100])
+2025-09-20 10:29:43,201 - __main__ - INFO - Raw outputs: tensor([[-12.8063,  -4.7427,  -4.4665,  12.9263,  -3.8596]])
+2025-09-20 10:29:43,201 - __main__ - INFO - Predicted Index: 3
+2025-09-20 10:29:43,201 - __main__ - INFO - Number of output classes: 5
+2025-09-20 10:29:43,201 - __main__ - INFO - Predicted name: Kavya
+2025-09-20 10:29:43,201 - __main__ - INFO - Confidence: 100.00%
+2025-09-20 10:29:43,201 - __main__ - INFO - Logged prediction to prediction_log.csv
+2025-09-20 10:29:43,201 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 10:29:43] "POST /predict HTTP/1.1" 200 -
+2025-11-04 13:12:32,117 - __main__ - INFO - Model file size: 18.37 MB
+2025-11-04 13:12:32,119 - __main__ - INFO - Attempting to load model as a complete object...
+2025-11-04 13:12:32,266 - __main__ - INFO - Successfully loaded complete model object
+2025-11-04 13:12:32,266 - __main__ - INFO - ==================================================
+2025-11-04 13:12:32,271 - __main__ - INFO - Starting Face Recognition Flask Application
+2025-11-04 13:12:32,271 - __main__ - INFO - Model path: student_face_full_model.pth
+2025-11-04 13:12:32,271 - __main__ - INFO - Class names: ['Aliefiah', 'Apurva', 'Dhruhi', 'Kavya', 'Maharshi']
+2025-11-04 13:12:32,272 - __main__ - INFO - Model loaded successfully
+2025-11-04 13:12:32,272 - __main__ - INFO - ==================================================
+2025-11-04 13:12:32,355 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-04 13:12:32,355 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-04 13:12:32,407 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-04 13:12:44,051 - __main__ - INFO - Model file size: 18.37 MB
+2025-11-04 13:12:44,051 - __main__ - INFO - Attempting to load model as a complete object...
+2025-11-04 13:12:44,356 - __main__ - INFO - Successfully loaded complete model object
+2025-11-04 13:12:44,368 - __main__ - INFO - ==================================================
+2025-11-04 13:12:44,368 - __main__ - INFO - Starting Face Recognition Flask Application
+2025-11-04 13:12:44,368 - __main__ - INFO - Model path: student_face_full_model.pth
+2025-11-04 13:12:44,368 - __main__ - INFO - Class names: ['Aliefiah', 'Apurva', 'Dhruhi', 'Kavya', 'Maharshi']
+2025-11-04 13:12:44,368 - __main__ - INFO - Model loaded successfully
+2025-11-04 13:12:44,378 - __main__ - INFO - ==================================================
+2025-11-04 13:12:44,569 - werkzeug - WARNING -  * Debugger is active!
+2025-11-04 13:12:44,924 - werkzeug - INFO -  * Debugger PIN: 203-425-107
+2025-11-04 13:12:45,354 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\narwhals\\functions.py', reloading
+2025-11-04 13:12:45,434 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\narwhals\\schema.py', reloading
+2025-11-04 13:12:45,546 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\narwhals\\series.py', reloading
+2025-11-04 13:12:45,665 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2025 13:12:45] "GET / HTTP/1.1" 200 -
+2025-11-04 13:12:45,743 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\narwhals\\translate.py', reloading
+2025-11-04 13:12:45,886 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\narwhals\\utils.py', reloading
+2025-11-04 13:12:46,083 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2025 13:12:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-04 13:12:46,223 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\nltk\\__init__.py', reloading

@@ -1,0 +1,8 @@
+Flask>=2.0
+gunicorn
+opencv-python-headless
+numpy
+pytest
+flake8
+bandit
+
