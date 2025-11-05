@@ -5580,3 +5580,255 @@ AttributeError: Can't get attribute 'ImprovedFaceCNN' on <module '__main__' from
 2025-11-04 13:13:38,695 - __main__ - INFO - Confidence: 84.73%
 2025-11-04 13:13:38,706 - __main__ - INFO - Logged prediction to prediction_log.csv
 2025-11-04 13:13:38,706 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2025 13:13:38] "POST /predict HTTP/1.1" 200 -
+2025-11-04 13:42:19,189 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\AI_Face_Recognition_Attendence\\app.py', reloading
+2025-11-04 13:42:19,205 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\AI_Face_Recognition_Attendence\\app.py', reloading
+2025-11-04 13:42:19,209 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\AI_Face_Recognition_Attendence\\class_mapping.py', reloading
+2025-11-04 13:42:19,209 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\AI_Face_Recognition_Attendence\\class_mapping.py', reloading
+2025-11-04 13:42:19,209 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\AI_Face_Recognition_Attendence\\script.py', reloading
+2025-11-04 13:42:19,209 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\AI_Face_Recognition_Attendence\\script.py', reloading
+2025-11-04 13:42:19,373 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\AI_Face_Recognition_Attendence\\templates\\model.py', reloading
+2025-11-04 13:42:19,375 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\AI_Face_Recognition_Attendence\\templates\\model.py', reloading
+2025-11-04 13:42:22,089 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-04 13:42:30,323 - __main__ - INFO - Model file size: 18.37 MB
+2025-11-04 13:42:30,325 - __main__ - INFO - Attempting to load model as a complete object...
+2025-11-04 13:42:30,400 - __main__ - INFO - Successfully loaded complete model object
+2025-11-04 13:42:30,403 - __main__ - INFO - ==================================================
+2025-11-04 13:42:30,404 - __main__ - INFO - Starting Face Recognition Flask Application
+2025-11-04 13:42:30,404 - __main__ - INFO - Model path: student_face_full_model.pth
+2025-11-04 13:42:30,404 - __main__ - INFO - Class names: ['Aliefiah', 'Apurva', 'Dhruhi', 'Kavya', 'Maharshi']
+2025-11-04 13:42:30,404 - __main__ - INFO - Model loaded successfully
+2025-11-04 13:42:30,405 - __main__ - INFO - ==================================================
+2025-11-04 13:42:30,415 - werkzeug - WARNING -  * Debugger is active!
+2025-11-04 13:42:30,423 - werkzeug - INFO -  * Debugger PIN: 203-425-107
+2025-11-04 14:17:07,884 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2025 14:17:07] "GET / HTTP/1.1" 200 -
+2025-11-04 14:17:08,032 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2025 14:17:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-04 14:17:27,999 - __main__ - INFO - Received base64 image data
+2025-11-04 14:17:27,999 - __main__ - INFO - Saved webcam capture to uploads\webcam_capture.jpg
+2025-11-04 14:17:28,008 - __main__ - INFO - Processing image: uploads\webcam_capture.jpg
+2025-11-04 14:17:28,287 - __main__ - INFO - Image loaded: (640, 480), RGB
+2025-11-04 14:17:28,518 - __main__ - INFO - Image transformed to tensor: torch.Size([1, 1, 100, 100])
+2025-11-04 14:17:28,906 - __main__ - INFO - Raw outputs: tensor([[-5.7544, -1.5220, -2.1896, -2.4270,  7.4251]])
+2025-11-04 14:17:28,911 - __main__ - INFO - Predicted Index: 4
+2025-11-04 14:17:28,914 - __main__ - INFO - Number of output classes: 5
+2025-11-04 14:17:28,915 - __main__ - INFO - Predicted name: Maharshi
+2025-11-04 14:17:28,933 - __main__ - INFO - Confidence: 99.97%
+2025-11-04 14:17:29,077 - __main__ - INFO - Logged prediction to prediction_log.csv
+2025-11-04 14:17:29,079 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2025 14:17:29] "POST /predict HTTP/1.1" 200 -
+2025-11-04 14:17:35,731 - __main__ - INFO - Received base64 image data
+2025-11-04 14:17:35,735 - __main__ - INFO - Saved webcam capture to uploads\webcam_capture.jpg
+2025-11-04 14:17:35,735 - __main__ - INFO - Processing image: uploads\webcam_capture.jpg
+2025-11-04 14:17:35,755 - __main__ - INFO - Image loaded: (640, 480), RGB
+2025-11-04 14:17:35,762 - __main__ - INFO - Image transformed to tensor: torch.Size([1, 1, 100, 100])
+2025-11-04 14:17:35,784 - __main__ - INFO - Raw outputs: tensor([[-6.0100, -2.6374, -2.7333, -2.4707,  8.1396]])
+2025-11-04 14:17:35,786 - __main__ - INFO - Predicted Index: 4
+2025-11-04 14:17:35,789 - __main__ - INFO - Number of output classes: 5
+2025-11-04 14:17:35,790 - __main__ - INFO - Predicted name: Maharshi
+2025-11-04 14:17:35,791 - __main__ - INFO - Confidence: 99.99%
+2025-11-04 14:17:35,792 - __main__ - INFO - Logged prediction to prediction_log.csv
+2025-11-04 14:17:35,796 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2025 14:17:35] "POST /predict HTTP/1.1" 200 -
+2025-11-04 14:17:44,940 - __main__ - INFO - Received base64 image data
+2025-11-04 14:17:44,943 - __main__ - INFO - Saved webcam capture to uploads\webcam_capture.jpg
+2025-11-04 14:17:44,946 - __main__ - INFO - Processing image: uploads\webcam_capture.jpg
+2025-11-04 14:17:44,968 - __main__ - INFO - Image loaded: (640, 480), RGB
+2025-11-04 14:17:44,972 - __main__ - INFO - Image transformed to tensor: torch.Size([1, 1, 100, 100])
+2025-11-04 14:17:44,993 - __main__ - INFO - Raw outputs: tensor([[-2.7768, -1.5770, -1.7317, -4.2767,  5.9079]])
+2025-11-04 14:17:44,993 - __main__ - INFO - Predicted Index: 4
+2025-11-04 14:17:44,996 - __main__ - INFO - Number of output classes: 5
+2025-11-04 14:17:44,996 - __main__ - INFO - Predicted name: Maharshi
+2025-11-04 14:17:44,996 - __main__ - INFO - Confidence: 99.88%
+2025-11-04 14:17:45,005 - __main__ - INFO - Logged prediction to prediction_log.csv
+2025-11-04 14:17:45,005 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2025 14:17:45] "POST /predict HTTP/1.1" 200 -
+2025-11-04 14:17:59,481 - __main__ - INFO - Received base64 image data
+2025-11-04 14:17:59,484 - __main__ - INFO - Saved webcam capture to uploads\webcam_capture.jpg
+2025-11-04 14:17:59,485 - __main__ - INFO - Processing image: uploads\webcam_capture.jpg
+2025-11-04 14:17:59,505 - __main__ - INFO - Image loaded: (640, 480), RGB
+2025-11-04 14:17:59,514 - __main__ - INFO - Image transformed to tensor: torch.Size([1, 1, 100, 100])
+2025-11-04 14:17:59,533 - __main__ - INFO - Raw outputs: tensor([[-3.6643, -0.8024,  1.7531, -3.2663,  2.4673]])
+2025-11-04 14:17:59,534 - __main__ - INFO - Predicted Index: 4
+2025-11-04 14:17:59,534 - __main__ - INFO - Number of output classes: 5
+2025-11-04 14:17:59,534 - __main__ - INFO - Predicted name: Maharshi
+2025-11-04 14:17:59,535 - __main__ - INFO - Confidence: 65.23%
+2025-11-04 14:17:59,539 - __main__ - INFO - Logged prediction to prediction_log.csv
+2025-11-04 14:17:59,541 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2025 14:17:59] "POST /predict HTTP/1.1" 200 -
+2025-11-04 14:18:08,150 - __main__ - INFO - Received base64 image data
+2025-11-04 14:18:08,153 - __main__ - INFO - Saved webcam capture to uploads\webcam_capture.jpg
+2025-11-04 14:18:08,155 - __main__ - INFO - Processing image: uploads\webcam_capture.jpg
+2025-11-04 14:18:08,199 - __main__ - INFO - Image loaded: (640, 480), RGB
+2025-11-04 14:18:08,212 - __main__ - INFO - Image transformed to tensor: torch.Size([1, 1, 100, 100])
+2025-11-04 14:18:08,227 - __main__ - INFO - Raw outputs: tensor([[-8.8319,  1.1029,  2.0889, -3.5027,  6.1687]])
+2025-11-04 14:18:08,227 - __main__ - INFO - Predicted Index: 4
+2025-11-04 14:18:08,227 - __main__ - INFO - Number of output classes: 5
+2025-11-04 14:18:08,230 - __main__ - INFO - Predicted name: Maharshi
+2025-11-04 14:18:08,232 - __main__ - INFO - Confidence: 97.72%
+2025-11-04 14:18:08,236 - __main__ - INFO - Logged prediction to prediction_log.csv
+2025-11-04 14:18:08,236 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2025 14:18:08] "POST /predict HTTP/1.1" 200 -
+2025-11-04 14:18:15,988 - __main__ - INFO - Received base64 image data
+2025-11-04 14:18:15,993 - __main__ - INFO - Saved webcam capture to uploads\webcam_capture.jpg
+2025-11-04 14:18:15,993 - __main__ - INFO - Processing image: uploads\webcam_capture.jpg
+2025-11-04 14:18:16,021 - __main__ - INFO - Image loaded: (640, 480), RGB
+2025-11-04 14:18:16,030 - __main__ - INFO - Image transformed to tensor: torch.Size([1, 1, 100, 100])
+2025-11-04 14:18:16,053 - __main__ - INFO - Raw outputs: tensor([[-6.7566,  3.5546,  1.9305, -2.2037,  1.7372]])
+2025-11-04 14:18:16,054 - __main__ - INFO - Predicted Index: 1
+2025-11-04 14:18:16,056 - __main__ - INFO - Number of output classes: 5
+2025-11-04 14:18:16,056 - __main__ - INFO - Predicted name: Apurva
+2025-11-04 14:18:16,056 - __main__ - INFO - Confidence: 73.38%
+2025-11-04 14:18:16,063 - __main__ - INFO - Logged prediction to prediction_log.csv
+2025-11-04 14:18:16,064 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2025 14:18:16] "POST /predict HTTP/1.1" 200 -
+2025-11-04 14:18:36,966 - __main__ - INFO - Received base64 image data
+2025-11-04 14:18:36,966 - __main__ - INFO - Saved webcam capture to uploads\webcam_capture.jpg
+2025-11-04 14:18:36,966 - __main__ - INFO - Processing image: uploads\webcam_capture.jpg
+2025-11-04 14:18:37,000 - __main__ - INFO - Image loaded: (640, 480), RGB
+2025-11-04 14:18:37,008 - __main__ - INFO - Image transformed to tensor: torch.Size([1, 1, 100, 100])
+2025-11-04 14:18:37,033 - __main__ - INFO - Raw outputs: tensor([[-3.6977,  4.2503, -0.4739, -0.4381, -2.0601]])
+2025-11-04 14:18:37,034 - __main__ - INFO - Predicted Index: 1
+2025-11-04 14:18:37,034 - __main__ - INFO - Number of output classes: 5
+2025-11-04 14:18:37,034 - __main__ - INFO - Predicted name: Apurva
+2025-11-04 14:18:37,034 - __main__ - INFO - Confidence: 98.02%
+2025-11-04 14:18:37,041 - __main__ - INFO - Logged prediction to prediction_log.csv
+2025-11-04 14:18:37,044 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2025 14:18:37] "POST /predict HTTP/1.1" 200 -
+2025-11-04 14:51:51,274 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\AI_Face_Recognition_Attendence\\app.py', reloading
+2025-11-04 14:51:51,284 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\AI_Face_Recognition_Attendence\\class_mapping.py', reloading
+2025-11-04 14:51:51,284 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\AI_Face_Recognition_Attendence\\script.py', reloading
+2025-11-04 14:51:53,880 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-04 14:52:02,660 - __main__ - INFO - Model file size: 18.37 MB
+2025-11-04 14:52:02,663 - __main__ - INFO - Attempting to load model as a complete object...
+2025-11-04 14:52:02,727 - __main__ - INFO - Successfully loaded complete model object
+2025-11-04 14:52:02,735 - __main__ - INFO - ==================================================
+2025-11-04 14:52:02,735 - __main__ - INFO - Starting Face Recognition Flask Application
+2025-11-04 14:52:02,735 - __main__ - INFO - Model path: student_face_full_model.pth
+2025-11-04 14:52:02,735 - __main__ - INFO - Class names: ['Aliefiah', 'Apurva', 'Dhruhi', 'Kavya', 'Maharshi']
+2025-11-04 14:52:02,735 - __main__ - INFO - Model loaded successfully
+2025-11-04 14:52:02,735 - __main__ - INFO - ==================================================
+2025-11-04 14:52:02,749 - werkzeug - WARNING -  * Debugger is active!
+2025-11-04 14:52:02,761 - werkzeug - INFO -  * Debugger PIN: 203-425-107
+2025-11-04 16:35:29,165 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\AI_Face_Recognition_Attendence\\app.py', reloading
+2025-11-04 16:35:29,218 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\AI_Face_Recognition_Attendence\\class_mapping.py', reloading
+2025-11-04 16:35:29,239 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\AI_Face_Recognition_Attendence\\script.py', reloading
+2025-11-04 16:35:32,020 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-04 16:35:48,382 - __main__ - INFO - Model file size: 18.37 MB
+2025-11-04 16:35:48,382 - __main__ - INFO - Attempting to load model as a complete object...
+2025-11-04 16:35:48,499 - __main__ - INFO - Successfully loaded complete model object
+2025-11-04 16:35:48,499 - __main__ - INFO - ==================================================
+2025-11-04 16:35:48,499 - __main__ - INFO - Starting Face Recognition Flask Application
+2025-11-04 16:35:48,499 - __main__ - INFO - Model path: student_face_full_model.pth
+2025-11-04 16:35:48,499 - __main__ - INFO - Class names: ['Aliefiah', 'Apurva', 'Dhruhi', 'Kavya', 'Maharshi']
+2025-11-04 16:35:48,499 - __main__ - INFO - Model loaded successfully
+2025-11-04 16:35:48,499 - __main__ - INFO - ==================================================
+2025-11-04 16:35:48,541 - werkzeug - WARNING -  * Debugger is active!
+2025-11-04 16:35:48,551 - werkzeug - INFO -  * Debugger PIN: 203-425-107
+2025-11-04 16:35:51,872 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\AI_Face_Recognition_Attendence.zip', reloading
+2025-11-04 16:35:52,277 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\AI_Face_Recognition_Attendence.zip', reloading
+2025-11-04 16:35:52,671 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\AI_Face_Recognition_Attendence.zip', reloading
+2025-11-04 16:35:53,321 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-04 16:36:00,091 - __main__ - INFO - Model file size: 18.37 MB
+2025-11-04 16:36:00,091 - __main__ - INFO - Attempting to load model as a complete object...
+2025-11-04 16:36:00,110 - __main__ - INFO - Successfully loaded complete model object
+2025-11-04 16:36:00,124 - __main__ - INFO - ==================================================
+2025-11-04 16:36:00,124 - __main__ - INFO - Starting Face Recognition Flask Application
+2025-11-04 16:36:00,124 - __main__ - INFO - Model path: student_face_full_model.pth
+2025-11-04 16:36:00,124 - __main__ - INFO - Class names: ['Aliefiah', 'Apurva', 'Dhruhi', 'Kavya', 'Maharshi']
+2025-11-04 16:36:00,124 - __main__ - INFO - Model loaded successfully
+2025-11-04 16:36:00,124 - __main__ - INFO - ==================================================
+2025-11-04 16:36:00,142 - werkzeug - WARNING -  * Debugger is active!
+2025-11-04 16:36:00,163 - werkzeug - INFO -  * Debugger PIN: 203-425-107
+2025-11-05 11:02:06,202 - __main__ - INFO - Model file size: 18.37 MB
+2025-11-05 11:02:06,206 - __main__ - INFO - Attempting to load model as a complete object...
+2025-11-05 11:02:06,293 - __main__ - INFO - Successfully loaded complete model object
+2025-11-05 11:02:06,293 - __main__ - INFO - ==================================================
+2025-11-05 11:02:06,293 - __main__ - INFO - Starting Face Recognition Flask Application
+2025-11-05 11:02:06,293 - __main__ - INFO - Model path: student_face_full_model.pth
+2025-11-05 11:02:06,293 - __main__ - INFO - Class names: ['Aliefiah', 'Apurva', 'Dhruhi', 'Kavya', 'Maharshi']
+2025-11-05 11:02:06,293 - __main__ - INFO - Model loaded successfully
+2025-11-05 11:02:06,293 - __main__ - INFO - ==================================================
+2025-11-05 11:02:06,353 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-05 11:02:06,353 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-05 11:02:06,374 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-05 11:02:15,820 - __main__ - INFO - Model file size: 18.37 MB
+2025-11-05 11:02:15,825 - __main__ - INFO - Attempting to load model as a complete object...
+2025-11-05 11:02:15,853 - __main__ - INFO - Successfully loaded complete model object
+2025-11-05 11:02:15,859 - __main__ - INFO - ==================================================
+2025-11-05 11:02:15,862 - __main__ - INFO - Starting Face Recognition Flask Application
+2025-11-05 11:02:15,862 - __main__ - INFO - Model path: student_face_full_model.pth
+2025-11-05 11:02:15,862 - __main__ - INFO - Class names: ['Aliefiah', 'Apurva', 'Dhruhi', 'Kavya', 'Maharshi']
+2025-11-05 11:02:15,862 - __main__ - INFO - Model loaded successfully
+2025-11-05 11:02:15,862 - __main__ - INFO - ==================================================
+2025-11-05 11:02:16,020 - werkzeug - WARNING -  * Debugger is active!
+2025-11-05 11:02:16,033 - werkzeug - INFO -  * Debugger PIN: 203-425-107
+2025-11-05 11:02:16,210 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2025 11:02:16] "GET / HTTP/1.1" 200 -
+2025-11-05 11:02:16,216 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2025 11:02:16] "GET / HTTP/1.1" 200 -
+2025-11-05 11:02:16,638 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2025 11:02:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-05 11:02:16,736 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2025 11:02:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-05 11:52:07,032 - __main__ - INFO - Model file size: 18.37 MB
+2025-11-05 11:52:07,032 - __main__ - INFO - Attempting to load model as a complete object...
+2025-11-05 11:52:07,120 - __main__ - INFO - Successfully loaded complete model object
+2025-11-05 11:52:07,120 - __main__ - INFO - ==================================================
+2025-11-05 11:52:07,120 - __main__ - INFO - Starting Face Recognition Flask Application
+2025-11-05 11:52:07,120 - __main__ - INFO - Model path: student_face_full_model.pth
+2025-11-05 11:52:07,120 - __main__ - INFO - Class names: ['Aliefiah', 'Apurva', 'Dhruhi', 'Kavya', 'Maharshi']
+2025-11-05 11:52:07,120 - __main__ - INFO - Model loaded successfully
+2025-11-05 11:52:07,128 - __main__ - INFO - ==================================================
+2025-11-05 11:52:07,198 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-05 11:52:07,198 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-05 11:52:07,222 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-05 11:52:12,035 - __main__ - INFO - Model file size: 18.37 MB
+2025-11-05 11:52:12,035 - __main__ - INFO - Attempting to load model as a complete object...
+2025-11-05 11:52:12,050 - __main__ - INFO - Successfully loaded complete model object
+2025-11-05 11:52:12,054 - __main__ - INFO - ==================================================
+2025-11-05 11:52:12,056 - __main__ - INFO - Starting Face Recognition Flask Application
+2025-11-05 11:52:12,056 - __main__ - INFO - Model path: student_face_full_model.pth
+2025-11-05 11:52:12,056 - __main__ - INFO - Class names: ['Aliefiah', 'Apurva', 'Dhruhi', 'Kavya', 'Maharshi']
+2025-11-05 11:52:12,056 - __main__ - INFO - Model loaded successfully
+2025-11-05 11:52:12,058 - __main__ - INFO - ==================================================
+2025-11-05 11:52:12,079 - werkzeug - WARNING -  * Debugger is active!
+2025-11-05 11:52:12,086 - werkzeug - INFO -  * Debugger PIN: 203-425-107
+2025-11-05 11:52:26,383 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2025 11:52:26] "GET / HTTP/1.1" 200 -
+2025-11-05 11:53:15,170 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2025 11:53:15] "GET / HTTP/1.1" 200 -
+2025-11-05 11:55:31,355 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\flask\\cli.py', reloading
+2025-11-05 11:55:31,385 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\click\\core.py', reloading
+2025-11-05 11:55:31,419 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\runpy.py', reloading
+2025-11-05 11:55:33,294 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-05 11:55:38,098 - app - INFO - Model file size: 18.37 MB
+2025-11-05 11:55:38,098 - app - INFO - Attempting to load model as a complete object...
+2025-11-05 11:55:38,102 - app - WARNING - Could not load as complete model: Can't get attribute 'FaceCNN' on <module '__main__' from 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\flask.exe\\__main__.py'>
+2025-11-05 11:55:38,102 - app - INFO - Attempting to load model as state_dict...
+2025-11-05 11:55:38,186 - app - ERROR - Error loading state dict: Can't get attribute 'FaceCNN' on <module '__main__' from 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\flask.exe\\__main__.py'>
+2025-11-05 11:55:38,190 - app - ERROR - Traceback (most recent call last):
+  File "C:\Users\Maharshi patel\AI_Project_Face\app.py", line 108, in load_model
+    state_dict = torch.load(MODEL_PATH, map_location=torch.device('cpu'))
+  File "c:\users\maharshi patel\appdata\local\programs\python\python38\lib\site-packages\torch\serialization.py", line 1097, in load
+    return _load(
+  File "c:\users\maharshi patel\appdata\local\programs\python\python38\lib\site-packages\torch\serialization.py", line 1525, in _load
+    result = unpickler.load()
+  File "c:\users\maharshi patel\appdata\local\programs\python\python38\lib\site-packages\torch\serialization.py", line 1515, in find_class
+    return super().find_class(mod_name, name)
+AttributeError: Can't get attribute 'FaceCNN' on <module '__main__' from 'C:\\Users\\Maharshi patel\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\flask.exe\\__main__.py'>
+
+2025-11-05 11:55:41,156 - __main__ - INFO - Model file size: 18.37 MB
+2025-11-05 11:55:41,156 - __main__ - INFO - Attempting to load model as a complete object...
+2025-11-05 11:55:41,201 - __main__ - INFO - Successfully loaded complete model object
+2025-11-05 11:55:41,206 - __main__ - INFO - ==================================================
+2025-11-05 11:55:41,206 - __main__ - INFO - Starting Face Recognition Flask Application
+2025-11-05 11:55:41,206 - __main__ - INFO - Model path: student_face_full_model.pth
+2025-11-05 11:55:41,208 - __main__ - INFO - Class names: ['Aliefiah', 'Apurva', 'Dhruhi', 'Kavya', 'Maharshi']
+2025-11-05 11:55:41,211 - __main__ - INFO - Model loaded successfully
+2025-11-05 11:55:41,216 - __main__ - INFO - ==================================================
+2025-11-05 11:55:41,295 - werkzeug - WARNING -  * Debugger is active!
+2025-11-05 11:55:41,316 - werkzeug - INFO -  * Debugger PIN: 203-425-107
+2025-11-05 12:02:03,077 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\app.py', reloading
+2025-11-05 12:02:03,103 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\class_mapping.py', reloading
+2025-11-05 12:02:03,105 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\script.py', reloading
+2025-11-05 12:02:03,108 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Maharshi patel\\AI_Project_Face\\templates\\model.py', reloading
+2025-11-05 12:02:06,137 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-11-05 12:02:14,638 - __main__ - INFO - Model file size: 18.37 MB
+2025-11-05 12:02:14,638 - __main__ - INFO - Attempting to load model as a complete object...
+2025-11-05 12:02:14,681 - __main__ - INFO - Successfully loaded complete model object
+2025-11-05 12:02:14,688 - __main__ - INFO - ==================================================
+2025-11-05 12:02:14,689 - __main__ - INFO - Starting Face Recognition Flask Application
+2025-11-05 12:02:14,689 - __main__ - INFO - Model path: student_face_full_model.pth
+2025-11-05 12:02:14,689 - __main__ - INFO - Class names: ['Aliefiah', 'Apurva', 'Dhruhi', 'Kavya', 'Maharshi']
+2025-11-05 12:02:14,689 - __main__ - INFO - Model loaded successfully
+2025-11-05 12:02:14,689 - __main__ - INFO - ==================================================
+2025-11-05 12:02:14,701 - werkzeug - WARNING -  * Debugger is active!
+2025-11-05 12:02:14,710 - werkzeug - INFO -  * Debugger PIN: 203-425-107

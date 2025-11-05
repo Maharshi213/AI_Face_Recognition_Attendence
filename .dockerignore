@@ -1,0 +1,6 @@
+__pycache__
+*.pyc
+*.log
+AI_Dataset/
+uploads/
+student_face_full_model.pth
